@@ -1,4 +1,7 @@
-This project simulates stock price paths using Geometric Brownian Motion (GBM) via Monte Carlo methods and compares them with the analytical solution of GBM. It is useful for understanding stochastic processes in financial modeling, particularly for pricing derivatives and forecasting stock prices.
+This project simulates stock price paths using Geometric Brownian Motion (GBM) via Monte Carlo methods and compares them with
+the analytical solution of GBM. It is useful for understanding stochastic processes in financial modeling, particularly for 
+pricing derivatives and forecasting stock prices.
+
 The project consists of two main components:
 
 GBM Simulator (GBM_simulator.py)
