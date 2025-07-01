@@ -1,3 +1,9 @@
-In this folder I simulated Hull-White model using Additive OU process and Extendend Hull-White model (Drift based).
-Additive OU process: The additive Ornstein-Uhlenbeck formulation of the Hull–White model expresses the short rate as a combination of several independent mean-reverting components. Each component evolves according to its own Ornstein-Uhlenbeck process, collectively shaping the dynamics of the interest rate. In essence, this three-factor Hull–White model can be viewed as the sum of three correlated one-factor Hull–White processes.
-Extendend Hull-White model (Drift based): The extended Hull–White model enhances the basic framework by introducing auxiliary mean-reverting factors that influence the drift of the short rate. Rather than being directly additive, these factors shape the rate's evolution through a deterministic function, allowing for greater flexibility in modeling yield curves and enforcing rate positivity. This makes the model well-suited for complex instruments and calibration tasks, though at the cost of increased computational complexity
+# Hull–White Model Simulations
+
+This folder contains simulations of the Hull–White interest rate model using two approaches:
+
+### 📘 Additive OU Process
+The short rate is modeled as the sum of multiple independent mean-reverting components, each following its own Ornstein-Uhlenbeck process. This three-factor formulation effectively represents a combination of three correlated one-factor Hull–White models, offering analytical tractability and simplicity for pricing and scenario analysis.
+
+### 📘 Extended Hull–White Model (Drift-Based)
+This version introduces auxiliary mean-reverting factors that influence the drift of the short rate through a deterministic function. Unlike the additive approach, these factors are not directly added to the rate but shape its evolution indirectly, allowing for greater flexibility in modeling yield curves and enforcing rate positivity. This model is well-suited for complex instruments and calibration tasks, though it is more computationally intensive.
